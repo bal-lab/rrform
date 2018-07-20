@@ -10,7 +10,7 @@ To use it
 1. User will have to combine 'formReducer' with his/her other reducers.
 2. Provide 'id' attribute when creating form 
 fields.
-3. rrform adds onChange function to props. User should add `onChange={(e)=>{props.onChange("form1", "field2", e.target.value)}}` to form field.
+3. rrform adds onChange function to props. User should add `onChange={(e)=>{props.onChange("formId", "fieldId", e.target.value)}}` to form field.
 
 ## Example:
 
